@@ -1,7 +1,7 @@
 check.point.automaton
 =====================
 
-Steps required to replicate the Check.Point. login
+Steps required to replicate the CheckPoint login
 mechanism.
 
 •Configure login details
