@@ -5,6 +5,7 @@ Steps required to replicate the Check.Point. login
 mechanism.
 
 •Configure login details
+
 •terminal-> $ make
 
 Distributed under <a href="http://www.wtfpl.net/"><img
