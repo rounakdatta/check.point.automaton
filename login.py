@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
+import sys
 from checkpoint import login
 
 import argparse
 
-ret = login('RA161100xxxxxxx', 'xxxxxxxx')
+print(sys.argv[1])
+ret = login(sys.argv[1], sys.argv[2])
 print(ret)

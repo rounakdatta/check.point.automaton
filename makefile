@@ -1,2 +1,6 @@
 run:
-	watch -n 60 python3 ./login.py
+	read -p 'Username: ' username
+	stty -echo
+	read -p 'Password: ' password
+	stty echo
+	watch -n 60 python3 login.py username password
