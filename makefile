@@ -1,3 +1,6 @@
+setup:
+	pip3 install -r requirements.txt
+
 run:
 	read -p 'Username: ' username
 	stty -echo
